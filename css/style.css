@@ -57,7 +57,7 @@ h1{
 	font-size:16px;
 }
 
-.loginbox input[type="submit"]{
+.btn{
 	border:none;
 	outline:none;
 	height:40px;
@@ -65,9 +65,10 @@ h1{
 	color:#fff;
 	font-size:18px;
 	border-radius:20px;
+	padding: 10px 60px;
 }
 
-.loginbox input[type="submit"]:hover{
+.btn:hover{
 	cursor:pointer;
 	background:#ffc107;
 	color:#000;
