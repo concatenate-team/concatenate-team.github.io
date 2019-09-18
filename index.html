@@ -1,29 +1,29 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Login Form-Team Concatenate</title>
-
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-
-	<body>
-		<div class="loginbox">
-			<img src="img/avatar-male.png" class="avatar">
-			<h1>Login Here</h1>
-			<form>
-				<p>Username</p>
-				<input type="text" id="username" placeholder="Enter Username">
-				<p>Password</p>
-				<input type="password" id="password" placeholder="Enter your Password">
-				<!-- <input type="submit" name="" value="Login" onclick="getDetails();"> -->
-				<button class="btn" type="button" onclick="getDetails()">Login</button>
-				<!-- <a href="#">Lost your password?</a><br>
-				<a href="#">Don't have an accout?</a> -->
-
-
-			</form>
+<head>
+	<meta charset="utf-8">
+	<title>Team Concatenate_Home Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+			<div class="team_Name">
+			<h1>Team Concatenate</h1>
+			</div>
+		</header>
+		<div class="login_box">
+				<div class="textarea">
+				<input type="text" name="userdata" required="" placeholder="Email" class="input" autofocus="">
+				</div>
+				<div class="textarea">
+				<input type="password" name="login_detail" required="" placeholder="password" class="input">
+				</div>
+				<input type="submit" class="btn" name="login_detail" value="Sign in">
 		</div>
-		<script src="js/main.js"></script>
-
-	</body>
-
+	</div>
+</body>
 </html>
