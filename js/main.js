@@ -113,7 +113,7 @@ window.onload = () => {
 	
 		function displayActionSuccess(msg) {
 			msg = typeof msg != 'undefined' ? "Success: " + msg : "Success";
-			document.querySelector('#msg').innerHTML = '<span style="color: green">' + 'Sign up ' + msg +'ful' + '</span>';
+			document.querySelector('#msg').innerHTML = '<span style="color: green">' `${msg}`'</span>';
 		}
 		function displayActionFailure(msg) {
 			msg = typeof msg != 'undefined' ? "Sign Up Failured: " + msg : "Failure";
