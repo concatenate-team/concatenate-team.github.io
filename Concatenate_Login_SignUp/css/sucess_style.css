@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+header{
+	border-bottom: 5px solid green;
+}header img{
+	width: 75px;
+	height: 75px;
+}header h1{
+	float: right;
+	font-size: ;
+	padding: 15px;
+}
+/*.wrapper{
+	width: 100vw;
+	height: 100vh;
+}*/.status{
+	position: absolute;
+	width: 70%;
+	margin-top: 100px;
+}
+p{
+	position: absolute;
+	left: 150px;
+	vertical-align: center;
+	font-size: 2em;
+	color: green;
+}
