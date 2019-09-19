@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+.heading{
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/child1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/child1.jpg);
+     background-size: cover;
+}
+.naviga{
+    overflow: hidden;
+    background-color: #030303;
+
+    
+
+}
+
+h1{
+    color:white;
+}
+.naviga a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left:50px;
+
+}
+.naviga a:hover{
+    background-color: dimgray;
+    color: black;
+}
+
+.ul-nav{
+      margin-left:10px;
+}
+
+.ul-nav li{
+    display:inline;
+
+
+}
+
+.column{
+    float: left;
+    padding: 10px;
+}
+.column.side{
+    width: 25%;
+}
+.column.middle{
+    width: 50%;
+}
+.column.middle h2{
+    color: darkslategrey;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: monospace;
+    font-size: 31px;
+}
+
+.column.middle p{
+    color: dimgrey;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: cursive;
+    font-size: 15px;
+    /*margin-left:600px;*/
+}
+.column.side h3,p{
+    text-align: center;
+    font-family: serif;
+    letter-spacing: 1px;
+}
+.special_offer{
+    text-shadow: 2px 1px red;
+    color: aqua;
+}
+
+.img-about{
+    margin-left:270px;
+}
