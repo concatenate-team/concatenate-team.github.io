@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+}
+.container{
+    margin: auto;
+    padding: 10px;
+    background-color: azure;
+    width: 60%;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    border: 5px black solid;
+}
